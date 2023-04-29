@@ -1,0 +1,46 @@
+.navbar {
+  background-color: black;
+  padding: 30px;
+}
+
+.navbar-toggler {
+  border: none;
+  color: white;
+}
+
+.brand-logo {
+  max-width: 13rem;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Phone Screen CSS */
+@media all and (max-width: 500px) {
+  .navbar {
+    background-color: black;
+    padding: 20px;
+  }
+
+  .brand-logo {
+    max-width: 10rem;
+  }
+  .navbar-toggler {
+    border: none;
+    width: 15%;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 100%;
+  }
+  .nav-item {
+    margin: 10px 10px;
+  }
+}

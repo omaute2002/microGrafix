@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.home__container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  max-width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#title_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 600%;
+  color: white;
+  padding-top: 4%;
+}
+
+#home_info {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 150%;
+  color: white;
+  margin: 4% 6%;
+  font-weight: 200;
+}
+
+@media all and (max-width: 500px) {
+  .home__container {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    background-image: url("https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    max-width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  #title_text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 400%;
+    color: white;
+    padding-top: 4%;
+  }
+
+  #home_info {
+    font-family: "Poppins", sans-serif;
+
+    font-size: 100%;
+    color: white;
+    margin: 4% 5%;
+    font-weight: 200;
+  }
+}

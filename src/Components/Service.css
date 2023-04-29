@@ -1,0 +1,27 @@
+.main__service {
+  margin-bottom: 3rem;
+}
+.service__img {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  width: 29rem;
+  height: 29rem;
+}
+#service__name {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
+  margin-top: 0;
+  font-size: 2.15rem;
+  font-weight: 400;
+}
+#service_descrip {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  /* margin-left: 2.5rem;
+  margin-right: 3rem; */
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}

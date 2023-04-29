@@ -1,0 +1,52 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); */
+
+.main__container {
+  background-color: #e5097f;
+  padding-bottom: 1rem;
+}
+
+#section__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 400%;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+
+#section__para {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 0;
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+/* For Phone Screen Media Query */
+
+@media all and (max-width: 500px) {
+  #section__title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 300%;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+  }
+
+  #section__para {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0;
+    font-size: 100%;
+    font-weight: 300;
+  }
+}

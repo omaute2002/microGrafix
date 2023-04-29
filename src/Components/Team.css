@@ -1,0 +1,13 @@
+.parent__section {
+  background-color: #f08143;
+  padding-bottom: 15px;
+}
+.section__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 400%;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}

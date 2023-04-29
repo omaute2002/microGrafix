@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.parent_container {
+  background-color: #00a0e3;
+  padding-bottom: 5.5rem;
+}
+
+.parent_container > h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 400%;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* #work_image_left {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 30rem;
+  height: 30rem;
+}
+#work_image_mid {
+  margin: 0;
+  padding: 0;
+  width: 30rem;
+  height: 30rem;
+}
+#work_image_right {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 30rem;
+  height: 30rem;
+} */
+
+.gallery-container {
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.img-fluid {
+  width: 28rem;
+  height: 28rem;
+}
+
+@media all and (max-width: 500px) {
+  .img-fluid {
+    width: 400px;
+    height: 400px;
+  }
+}

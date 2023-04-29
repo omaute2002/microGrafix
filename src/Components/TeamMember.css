@@ -1,0 +1,26 @@
+#profile__pic {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+}
+
+.member__info {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  /* margin-left: 2.5rem;
+  margin-right: 3rem; */
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.member__name {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 400;
+}

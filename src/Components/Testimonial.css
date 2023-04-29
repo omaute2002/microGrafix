@@ -1,0 +1,81 @@
+.main__section {
+  background-color: #ce82b5;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+#clien__picture {
+  width: 120px;
+  height: 120px;
+  height: 6rem;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  border-radius: 50%;
+}
+
+.review__section {
+  font-family: "Poppins", sans-serif;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.carousel-control-prev {
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  top: calc(50% - 25px);
+  /* background-color: black; */
+}
+
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  top: calc(50% - 25px);
+}
+
+/* For Phone Scree */
+@media all and (max-width: 500px) {
+  #clien__picture {
+    width: 90px;
+    height: 90px;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    border-radius: 50%;
+  }
+
+  .review__section {
+    font-family: "Poppins", sans-serif;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 80%;
+    font-weight: 300;
+  }
+
+  .carousel-control-prev {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    top: calc(50% - 25px);
+    /* background-color: black; */
+  }
+
+  .carousel-control-next {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    top: calc(50% - 25px);
+  }
+
+  .main__section {
+    background-color: #ce82b5;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}

@@ -1,0 +1,27 @@
+.service__section {
+  background-color: #b0cb1f;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#service__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 400%;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 500px) {
+  #service__title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 300%;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+  }
+}

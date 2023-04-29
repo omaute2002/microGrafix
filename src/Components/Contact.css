@@ -1,0 +1,89 @@
+.contact__section {
+  background-color: #ffed00;
+  padding: 7% 0%;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+.contact__title {
+  margin-top: 15%;
+  font-family: "Poppins", sans-serif;
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.contact__about {
+  margin-top: 10%;
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  font-weight: 200;
+}
+
+.form_text {
+  margin-bottom: 1.5%;
+  font-size: 16px;
+}
+
+.form_text__message {
+  margin-bottom: 1.5%;
+  margin-top: 7%;
+}
+
+.btn {
+  padding: 2% 10%;
+  background: transparent;
+  border-radius: 0;
+  color: #3a7aff;
+  border: 2px solid #3a7aff;
+  font-weight: 500;
+  width: 70%;
+}
+
+.btn:hover {
+  background: transparent;
+  border-radius: 0;
+  color: #3a7aff;
+  border: 2px solid #3a7aff;
+}
+
+input {
+  /* background: transparent; */
+  background-color: rgba(0, 0, 0, 0.07);
+  color: #111827;
+  /* padding-bottom: 17%; */
+  /* background: transparent; */
+  border: none;
+  width: 100%;
+  height: 90%;
+}
+
+textarea {
+  background-color: rgba(0, 0, 0, 0.07);
+  color: #111827;
+  width: 100%;
+  border: none;
+  /* background-color: darkgoldenrod; */
+}
+
+#form__content {
+  margin: auto;
+}
+
+/* For Phone Screen */
+@media all and (max-width: 500px) {
+  .form_text {
+    margin-bottom: 1.5%;
+    font-size: 16px;
+  }
+
+  input {
+    /* background: transparent; */
+    background-color: rgba(0, 0, 0, 0.07);
+    color: #111827;
+    /* padding-bottom: 17%; */
+    /* background: transparent; */
+    border: none;
+    width: 100%;
+    height: 60%;
+  }
+}

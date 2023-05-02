@@ -1,6 +1,6 @@
 #profile__pic {
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -20,8 +20,8 @@
   color: black;
   /* margin-left: 10rem;
   margin-right: 10rem; */
-  margin-top: 25px;
-  font-size: 25px;
+  margin-top: 22px;
+  font-size: 22px;
   font-weight: 400;
 }
 

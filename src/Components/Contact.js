@@ -33,7 +33,7 @@ function Contact() {
               </div>
               <div className="row">
                 <div className="col-lg-8">
-                  <span>
+                  <span className="text-policy">
                     This site is protected by reCAPTCHA and the{" "}
                     <strong>Google Privacy</strong> Policy and Terms of Service
                     apply

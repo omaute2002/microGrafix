@@ -9,7 +9,7 @@
 .parent_container > h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  font-size: 400%;
+  font-size: 370%;
   color: white;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -42,8 +42,8 @@
 }
 
 .img-fluid {
-  width: 28rem;
-  height: 28rem;
+  width: 25rem;
+  height: 25rem;
 }
 
 @media all and (max-width: 500px) {

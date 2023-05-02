@@ -9,7 +9,7 @@
   color: black;
   /* margin-left: 2.5rem;
   margin-right: 3rem; */
-  margin-top: 15px;
+  margin-top: 0px;
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 50px;
@@ -23,4 +23,15 @@
   margin-top: 25px;
   font-size: 25px;
   font-weight: 400;
+}
+
+.member__position {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  /* margin-left: 2.5rem;
+  margin-right: 3rem; */
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: 300;
 }

@@ -7,7 +7,7 @@ function Footer() {
       <div className="container-fluid footer__section ">
         <div className=" text-center">
           <h3 className="footer__title">MicroGrafix</h3>
-          <a href="https://www.instagram.com/">
+          <a href="https://www.instagram.com/micro_grafix/?hl=en">
             <i class="fa-brands fa-instagram fa-xl"></i>
           </a>
           <a href="">

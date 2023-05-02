@@ -12,7 +12,7 @@ function TeamMember({ image, name, about, about_L_1 }) {
           alt="profile-pic"
         />
         <h2 className="member__name">{name}</h2>
-        <p>{about_L_1}</p>
+        <p className="member__position">{about_L_1}</p>
         <p className="member__info">{about}</p>
       </div>
     </>

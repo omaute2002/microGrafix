@@ -11,7 +11,7 @@
   height: 100%;
   max-width: 100%;
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 8%;
 }
 
 #title_text {
@@ -19,7 +19,7 @@
   font-weight: 200;
   font-size: 600%;
   color: white;
-  padding-top: 4%;
+  padding-top: 9%;
 }
 
 #home_info {
@@ -42,14 +42,14 @@
     height: 100%;
     width: 100%;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 15%;
   }
   #title_text {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-size: 400%;
     color: white;
-    padding-top: 4%;
+    padding-top: 8%;
   }
 
   #home_info {

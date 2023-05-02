@@ -1,20 +1,19 @@
 import react from "react";
 import "./Header.css";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import FacebookIcon from "@material-ui/icons/Facebook";
-// navbar-expand-lg
-// bg-body-tertiary
+
 function Header() {
   return (
     <>
-      <nav className="navbar   navbar-expand-lg navbar-dark">
+      <nav className="navbar   navbar-expand-lg navbar-dark ">
         <div className="container-fluid">
-          <img
-            className="img-responsive brand-logo "
-            src="./images/micro-logo.png"
-            alt="brand-logo"
-          />
+          <a href="#">
+            <img
+              className="img-responsive brand-logo "
+              src="./images/micro-logo.png"
+              alt="brand-logo"
+            />
+          </a>
+
           <button
             className="navbar-toggler "
             type="button"
@@ -32,7 +31,7 @@ function Header() {
           >
             <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
               <li className="nav-item ">
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/micro_grafix/?hl=en">
                   <i class="fa-brands fa-instagram fa-xl"></i>
                 </a>
               </li>
